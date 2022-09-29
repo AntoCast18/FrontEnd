@@ -1,13 +1,13 @@
 div{
-    background-color: black;
+    background-color:#2f4f4f;
     text-align: center ;
     font-family: Monserrat;
 }
 /*foto perfil bootstrap*/
 @media(min-width: 576px){
     #fotoperfil{
-        position: absolute;
-        width: 130%;
+        position:relative;
+        width: 90%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 2%;
