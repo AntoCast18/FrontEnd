@@ -1,8 +1,16 @@
 div{
     background-color: 	#2f4f4f;
+    overflow-x: hidden;  
 }
-
 app-sociales{
     float: right;
     margin-top: 25px;
 }
+/* padding: 20px;
+    margin-right: -30px;  
+    align-items: center; margin:0; 
+    padding:0;   
+    border-style: none;
+    z-index: 5;  width: 1379px;
+    box-sizing: border-box;
+    margin-right: 00.0em;*/
