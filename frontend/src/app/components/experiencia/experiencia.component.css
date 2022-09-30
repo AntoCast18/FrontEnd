@@ -1,0 +1,25 @@
+.row{
+    background-color: black;
+    padding: 30px;
+}
+h1{
+    color: darkslateblue;
+    font-size: 75px;
+	text-align: center;
+}
+.card-header{
+    color:whitesmoke;
+}
+.card-text{
+    color: #fcfc;
+}
+h3{
+    font-size: large;
+    color:#f9004d;
+}
+h5{
+    color:  #2f4f4f;
+    font-size: 15px;
+	text-align: center;
+}
+  
