@@ -1,25 +1,36 @@
-.row{
+.row {
     background-color: black;
     padding: 30px;
-}
-h1{
-    color: darkslateblue;
+    }
+
+h1 {
+    color: rgb(247, 206, 206);
     font-size: 75px;
-	text-align: center;
-}
-.card-header{
-    color:whitesmoke;
-}
-.card-text{
+    width: 1130px;
+    margin: 30px auto;
+    text-align: justify;
+    font-family: cursive;
+    text-shadow: -1px -1px 1px #aaa,
+        0px 4px 1px rgba(207, 202, 202, 0.5),
+        4px 4px 5px rgba(201, 198, 198, 0.7),
+        0px 0px 7px rgba(196, 190, 190, 0.4);
+    }
+
+.card-header {
+    color: whitesmoke;
+    }
+
+.card-text {
     color: #fcfc;
-}
-h3{
+    }
+
+h3 {
     font-size: large;
-    color:#f9004d;
+    color: #f9004d;
 }
-h5{
-    color:  #2f4f4f;
+
+h5 {
+    color: #2f4f4f;
     font-size: 15px;
-	text-align: center;
+    text-align: center;
 }
-  
