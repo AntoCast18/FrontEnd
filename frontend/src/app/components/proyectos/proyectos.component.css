@@ -1,0 +1,24 @@
+.row{
+    background-color: black;
+}
+.contenedor{
+    width:auto;
+}
+
+.parte1, .parte2{
+    display: initial;
+    text-align: justify;
+}
+.img-proyecto{
+    box-shadow:10px 10px 30px #000;
+    box-shadow:ejeX ejeY difumasion color;
+    width: 50px;
+    height: 50px;
+}
+
+h1{
+    color:  whitesmoke;
+    font-size: 75px;
+	text-align: center;
+}
+

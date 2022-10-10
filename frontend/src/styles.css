@@ -6,3 +6,6 @@ div.row {
 div.container-fluid {
     padding-right: 0px;
 }
+.row {
+    background: linear-gradient(to right, rgb(29, 15, 37), rgb(77, 13, 82));   
+}
