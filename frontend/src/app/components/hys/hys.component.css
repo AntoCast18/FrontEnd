@@ -3,7 +3,9 @@
     padding: 30px;
 }
 h1{
-    color:  whitesmoke;
-    font-size: 75px;
+    color: rgba(7, 6, 10, 0.863);
+    text-shadow: 0px 0px 9px rgb(205, 211, 211);
+    font-size: 65px;
 	text-align: center;
+    text-align: Monserrat;
 }

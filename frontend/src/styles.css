@@ -7,5 +7,6 @@ div.container-fluid {
     padding-right: 0px;
 }
 .row {
-    background: linear-gradient(to right, rgb(29, 15, 37), rgb(77, 13, 82));   
+    background: linear-gradient(to right,#452632, #91204D);   
 }
+

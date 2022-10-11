@@ -12,13 +12,22 @@
 .img-proyecto{
     box-shadow:10px 10px 30px #000;
     box-shadow:ejeX ejeY difumasion color;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+}
+h3{
+    color: #e6f7c7;
+    font-family: cursive;
 }
 
 h1{
-    color:  whitesmoke;
-    font-size: 75px;
+    color: rgba(7, 6, 10, 0.863);
+    text-shadow: 0px 0px 9px rgb(205, 211, 211);
+    font-size: 65px;
 	text-align: center;
+    text-align: Monserrat;
 }
-
+h5, p {
+    font-family: cursive;
+    color: rgb(104, 101, 101);
+}
