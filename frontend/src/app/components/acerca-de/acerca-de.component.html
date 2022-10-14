@@ -4,7 +4,7 @@
         class="img-fluid" id="fotoperfil">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <h1 id="nombre">Antonella Soledad Castagna</h1>
+        <h1 id="nombre">{{persona.nombre}} {{persona.apellido}}</h1>
         <div style="background:currentcolor; height:3px"></div>
         <h5>Full Stack Developer Jr</h5>
     </div>
@@ -12,12 +12,7 @@
         <span>
             <h1>Acerca de mi</h1>
             <div style="background:currentcolor; height:3px"></div>
-            <p>Gracias a mis conocimientos en informática siempre 
-                estoy dispuesta a explorar nuevas tecnologías
-                y nuevas formas de trabajo. 
-                Me interesa mucho Web Developer o programador 
-                para lo cual me estoy capacitando actualmente.
-            </p>
+            <p>{{persona.descripcion}}</p>
         </span>
     </div>
 </div>
