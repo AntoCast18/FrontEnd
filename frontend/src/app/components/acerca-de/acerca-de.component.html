@@ -1,6 +1,10 @@
 <div class="row">
+        <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
+            Editar persona
+        </button>
+  
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src="../../../assets/anto.jpg" 
+        <img src="{{persona.img}}" 
         class="img-fluid" id="fotoperfil">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
