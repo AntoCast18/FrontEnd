@@ -11,7 +11,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 
-  autURL = 'http://localhost:8080/auth/';
+  autURL = 'https://backndanto.herokuapp.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
