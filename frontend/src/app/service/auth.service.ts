@@ -11,15 +11,15 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 
-  autURL = 'https://backndanto.herokuapp.com/auth/';
+URL = environment.URL + 'auth/';
 
   constructor(private httpClient: HttpClient) { }
 
  public nuevo(nuevoUsuario: NuevoUsuario): Observable<any>{
-   return this.httpClient.post<any>(this.autURL + 'nuevo', nuevoUsuario);
+   return this.httpClient.post<any>(this.URL + 'nuevo', nuevoUsuario);
  }
 
  public login(loginUsuario: LoginUsuario): Observable<JwtDto>{
-   return this.httpClient.post<JwtDto>(this.autURL+ 'login', loginUsuario)
+   return this.httpClient.post<JwtDto>(this.URL + 'login', loginUsuario)
  }
 }
