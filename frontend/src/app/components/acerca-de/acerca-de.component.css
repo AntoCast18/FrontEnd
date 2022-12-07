@@ -3,26 +3,25 @@ div{
     text-align: center ;
     }
 /*foto perfil bootstrap*/
-@media(min-width: 576px){
-    #fotoperfil{
-        position:relative;
-        width: 90%;
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 2%;
-        top:-150px;
+        left: 3%;
+        top:550px;
     }
-} 
-@media(max-width: 575px){
-        #fotoperfil{
-            position: relative;
-            width: 70%;
-            border-radius: 100%;
-            box-shadow: 3px 3px 3px grey;
-            left: 2%;
-            top:-40px;
-            overflow: hidden;
-        }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top:950px;
+    }
 }
 /*etiqueta nombre*/
 #nombre{
